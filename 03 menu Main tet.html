@@ -85,6 +85,21 @@ body {
     font-family: cabinregular;
     text-align: center;
 }
+#wrapper {
+  display: flex;
+}
+#left {
+  flex: 0 0 65%;
+}
+#right {
+  flex: 1;
+}
+#innerBox
+{
+	width: 400px;
+    height: 300px;
+	border-style: solid;
+}
 </style>
 
 <body>
@@ -100,16 +115,24 @@ body {
 <br>
 <br>
 <br>
+<div id="wrapper">
+<div id="left">
+<div id="innerBox" class="innerBoxC">
 <div id="title">
 <p>The</p>
 <p>Eldar</p>
 <p>Trolls</p>
 </div>
+</div>
+</div>
+</div>
+<div id="right">
 <div class="buttonCenter">
 <button id="button1" class="buttonType" onclick="window.location.href='09 menu New Game tet.html'">New Game</button>
 <button id="button2" class="buttonType" onclick="window.location.href='04 menu Load Game tet.html'">Load Game</button>
 <button id="button3" class="buttonType" onclick="window.location.href='05 menu Game Settings tet.html'">Game Settings</button>
 <button id="button4" class="buttonType" onclick="window.location.href='exit.html'">Exit Game</button>
+</div>
 </div>
 
 </div>
