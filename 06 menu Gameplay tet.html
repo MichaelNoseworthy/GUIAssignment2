@@ -119,11 +119,11 @@ a
 <button id="button1" class="buttonType">Keybindings</button>
 <br>
 <br>
-<input type="range" class="vranger"/> <a>Mouse Sensitivity</a>
+<a id="Volume">100</a><a> </a><input id="volume" type="range" class="vranger" min="0" max="100" value="100" onchange="showValueVolume(this.value)"/><a> </a> <a>Mouse Sensitivity</a>
 <br>
 <br>
 <div class="buttonCenter">
-<button id="button1" class="buttonType">Defaults</button>
+<button id="button1" class="buttonType" onclick="Defaults()">Defaults</button>
 <button id="button2" class="buttonType">Apply</button>
 <button id="button3" class="buttonType" onclick="window.location.href='05 menu Game Settings tet.html'">Exit</button>
 </div>
@@ -134,4 +134,17 @@ a
 </body>
 
 <script src="tet.js"></script>
+<script>
+function showValueVolume(newValue)
+{
+	document.getElementById("Volume").innerHTML=newValue;
+}
+
+function Defaults()
+{
+	document.getElementById("Volume").innerHTML="100";
+	document.getElementById('volume').value=100;
+
+}
+</script>
 </html>
