@@ -1,0 +1,2 @@
+- To start our GUI from the beginning, please open the index.html page 
+- Only Madalyn Kendrick and Michael Noseworthy worked on Part 2 of the Team Project assignment. Our third team member Hian was unable to find time to work on his share of the assignment and left the group. 
