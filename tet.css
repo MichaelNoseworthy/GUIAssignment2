@@ -20,7 +20,7 @@ div
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #FE8701;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -39,7 +39,7 @@ div
 	
 	font-family: Georgia, "Times New Roman", serif;
 	  font-size: 30px;
-	  color: #006400;
+	  color: #DF20E5;
 	  font-weight: bold;
  
 } 
@@ -48,6 +48,6 @@ div
 {
     font-family: Georgia, "Times New Roman", serif; 
 	  font-size: 30px; 
-	  color: #006400; 
+	  color: #DF20E5; 
 	  font-style: italic; 
 } 
