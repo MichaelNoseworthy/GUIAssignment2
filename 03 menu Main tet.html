@@ -10,7 +10,28 @@
 body {
     background-color: beige;
 }
+.buttonType {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
 
+.buttonType:hover {background-color: #3e8e41}
+
+.buttonType:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 #MMtitle
 {
 	position: center;
@@ -18,7 +39,7 @@ body {
 }
 #button1
 {
-	position: absolute;
+	position: center;
     left: 500px;
     top: 270px;
     z-index: 1;
@@ -26,7 +47,7 @@ body {
 }
 #button2
 {
-	position: absolute;
+	position: center;
     left: 500px;
     top: 300px;
     z-index: 1;
@@ -34,7 +55,7 @@ body {
 }
 #button3
 {
-	position: absolute;
+	position: center;
     left: 500px;
     top: 330px;
     z-index: 1;
@@ -42,7 +63,7 @@ body {
 }
 #button4
 {
-	position: absolute;
+	position: center;
     left: 500px;
     top: 360px;
     z-index: 1;
@@ -105,6 +126,7 @@ body {
 <body>
 
 <div class="link-button-wrapper">
+
 <br>
 <br>
 <br>
@@ -118,19 +140,19 @@ body {
 <div id="wrapper">
 <div id="left">
 <div id="innerBox" class="innerBoxC">
-<div id="title">
-<p>The</p>
-<p>Eldar</p>
-<p>Trolls</p>
-</div>
-</div>
+<a>The</a><br>
+<a>Eldar</a><br>
+<a>Trolls</a>
 </div>
 </div>
 <div id="right">
 <div class="buttonCenter">
 <button id="button1" class="buttonType" onclick="window.location.href='09 menu New Game tet.html'">New Game</button>
+<br>
 <button id="button2" class="buttonType" onclick="window.location.href='04 menu Load Game tet.html'">Load Game</button>
+<br>
 <button id="button3" class="buttonType" onclick="window.location.href='05 menu Game Settings tet.html'">Game Settings</button>
+<br>
 <button id="button4" class="buttonType" onclick="window.location.href='exit.html'">Exit Game</button>
 </div>
 </div>
